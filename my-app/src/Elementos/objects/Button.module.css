@@ -1,14 +1,17 @@
 
 
 .button{
-
+    a{
+        text-decoration: none;
+        padding: 0%;
+    }
 
     button{
         background-image:
         linear-gradient(to right, #925DD5 , #13ACC7);
         border-radius: 83px;
-        width: 20%;
-        margin: 0% 0% 4% 15%;
+        width: 40%;
+        margin: 0% 0% 4% 1%;
         color: white;
         cursor: pointer;
     }

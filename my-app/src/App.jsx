@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Header from './Elementos/Componentes/Header/Header'
 import Presentatio from './Elementos/Componentes/Presentation/Presentation'
 import Card from './Elementos/objects/Cards/Card'
-
+import Projects from './Elementos/Componentes/Projects/Projects'
 
 import './App.css'
 
@@ -12,8 +12,7 @@ function App() {
     <div className="App">
         <Header/>    
         <Presentatio/>
-        <Card/>
-       
+       <Projects/>
 
     </div>
   )

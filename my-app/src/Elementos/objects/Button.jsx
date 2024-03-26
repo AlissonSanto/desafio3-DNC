@@ -1,9 +1,11 @@
 import styles from"./Button.module.css"
 
-function Button(){
+function Button({text, link}){
     return(
         <div className={styles.button}>
-            <button>Saber Mais</button>
+            <a href={link}>
+                <button> {text}</button>
+                </a>
         </div>
     );
 };
