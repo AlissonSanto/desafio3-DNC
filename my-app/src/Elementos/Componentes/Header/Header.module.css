@@ -1,0 +1,35 @@
+
+div{
+    width: 100%;
+    display: flex;
+
+    a{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0% 15% 0% 25%;
+        gap: 1%;
+        
+        button{
+            color: white;
+            height: 60%;
+            background-color: #0F1624;
+            
+        }
+    }
+    nav{
+        width: 10%;
+        display: flex;
+        justify-content: space-between;
+        padding: 2% 3%;
+
+        a{
+            gap: 30%;
+
+            img{
+                width: 60%;
+            }
+        }
+    }
+}
