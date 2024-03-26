@@ -1,5 +1,8 @@
-* {
+#root {
   background-color: #0F1624;
-  color: white;
+  text-align: center;
+  height: 100%;
 }
-
+.App {
+  display: grid;
+}
