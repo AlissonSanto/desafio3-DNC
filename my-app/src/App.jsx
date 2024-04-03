@@ -5,17 +5,16 @@ import Presentatio from './Elementos/Componentes/Presentation/Presentation'
 
 import Projects from './Elementos/Componentes/Projects/Projects'
 import TimeLine from './Elementos/Componentes/TimeLine/TimeLine'
+import Footer from './Elementos/Componentes/Footer/Footer'
 import './App.css'
 
 function App() {
   return (
     <div className="App">
-
-      <Header/>
-      <Presentatio/>
-      <Projects/>
-        
-        <h1>Sobre Mim</h1>
+        <Header/>
+        <Presentatio/>
+        <Projects/>
+        <h1>Sobre Mim</h1> 
         <TimeLine year="2021"
                   text="Me Formo no ensino medio pelo colegio
                   Centro de Exelecia Atheneu Sergipense"
@@ -37,7 +36,8 @@ function App() {
                         dou inicio no curso Ciencias da Computação 
                         na Faculdade Estacio de Sá."
                   />
-
+    <Footer/> 
+    <Footer/>
     </div>
   )
 }
