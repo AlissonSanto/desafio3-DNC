@@ -1,0 +1,61 @@
+
+
+
+.timeline{
+
+    display: flex;
+    flex-direction: column;
+    
+
+    div{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .line{
+        
+        font-size: 2.5vh;
+        width: 20%;
+        align-items: start;
+        padding: 0% 0%  20% 7%;
+        color: white;
+        
+    }
+    .line::before{
+        left: 74px;
+        content: "";
+        position: absolute;
+        pointer-events: none;
+        height: 20px;
+        width: 20px;
+        background-color: white;
+        border-radius: 100%;
+        
+    }
+    .line::after{
+        left: 82px;
+        content: "";
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 1%;
+        background-color: white;
+    }
+    .life{
+        padding: 0% 0%  20% 7%;
+        text-align: start;
+        width: 80%;
+        color: white;
+        font-size: 2vh;
+    }
+    nav{
+        flex-direction: column;
+        float: right;
+        width: 50%;
+        gap: 100px;
+    }
+
+
+}
+
+
