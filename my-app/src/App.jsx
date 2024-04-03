@@ -36,7 +36,6 @@ function App() {
                         dou inicio no curso Ciencias da Computação 
                         na Faculdade Estacio de Sá."
                   />
-    <Footer/> 
     <Footer/>
     </div>
   )
