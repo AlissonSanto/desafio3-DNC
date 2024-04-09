@@ -2,15 +2,17 @@
 div{
     width: 100%;
     display: flex;
+    background-color: #0F1624;
+    
 
     a{
         width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0% 15% 0% 25%;
+        padding: 0% 15% 0% 15%;
         gap: 1%;
-        font-size: 2vh;
+        font-size: 1.7vh;
         
         button{
             
@@ -27,7 +29,7 @@ div{
         padding: 2% 3%;
 
         a{
-            gap: 30%;
+            gap: 100%;
 
             img{
                 width: 60%;
