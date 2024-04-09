@@ -10,12 +10,13 @@ div{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0% 15% 0% 15%;
+        padding: 0% 12% 0% 12%;
         gap: 1%;
+        background-color: #0F1624;
         font-size: 1.7vh;
         
         button{
-            
+            white-space: nowrap;
             color: white;
             height: 80%;
             background-color: #0F1624;
@@ -23,13 +24,13 @@ div{
         }
     }
     nav{
-        width: 10%;
+        width: 26%;
         display: flex;
         justify-content: space-between;
         padding: 2% 3%;
 
         a{
-            gap: 100%;
+            gap: 50%;
 
             img{
                 width: 60%;
