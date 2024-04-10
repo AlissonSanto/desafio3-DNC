@@ -7,9 +7,10 @@ function Header(){
     return(
         <div>
             <a>
-                <button type="button">Projetos</button>
-                <button type="button">Tecnologias</button>
-                <button type="button">Sobre mim</button>
+                <input type="button" value="Projetos"/>
+                <input type="button" value="Tecnologias"/>
+                <input type="button" value="Sobre mim"/>
+                
             </a>
 
             <nav className="nav_img">

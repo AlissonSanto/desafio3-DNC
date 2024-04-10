@@ -15,12 +15,13 @@ div{
         background-color: #0F1624;
         font-size: 1.7vh;
         
-        button{
+        input{
             padding: 0% 7%;
             white-space: nowrap;
             color: white;
             height: 80%;
             background-color: #0F1624;
+            
             
         }
     }
