@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
         <Header/>
+        <Header/>
         <Presentatio/>
         <Projects/>
         <h1>Sobre Mim</h1> 
